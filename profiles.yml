@@ -1,0 +1,10 @@
+hs_modeling:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: 'hs_modeling/db.duckdb'
+      extensions:
+        - httpfs
+        - parquet
+        - csv
