@@ -1,4 +1,4 @@
-hs_modeling:
+str_modeling:
   outputs:
     dev:
       type: duckdb
