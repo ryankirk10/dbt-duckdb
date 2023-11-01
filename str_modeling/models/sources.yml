@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: external_source
+    meta:
+      external_location: "../sources/{name}.csv"
+    tables:
+      - name: amenities_changelog
+      - name: calendar
+      - name: generated_reviews
+      - name: listings
